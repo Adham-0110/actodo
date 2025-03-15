@@ -64,7 +64,7 @@ function SignUp(props) {
                             className="w-52 border border-black p-1 bg-transparent rounded-md"
                             placeholder="Confirm Password"
                             onChange={handleCPInput} />
-                        {passCheck?"":<p className="text-red-700">Please Enter the Conform Password Same as the Password...! </p>}
+                        {passCheck?"":<p className="text-red-700">Please Enter the Cofirm Password Same as the Password...! </p>}
                         <button className="bg-[#FCA201] w-24 p-1 rounded-md" onClick={addUsers}>Sign Up</button>
                         <p>Already have an account? <Link to={'/'} className="underline">Login</Link></p>
                     </div>
